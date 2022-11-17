@@ -221,6 +221,9 @@ p {
   text-align: center;
   border: none;
 
+  transition: var(--total-white) 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    var(--blue-color) 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   background-color: var(--blue-color);
   color: var(--total-white);
   font-weight: 700;
@@ -463,14 +466,14 @@ p {
 .footer-item {
   margin-bottom: 20px;
 
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  
+
   color: var(--total-white);
 }
 .footer-icons {
